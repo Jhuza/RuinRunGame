@@ -1,0 +1,186 @@
+/* =======================
+   CONFIGURACIÓN GLOBAL
+======================= */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0b2929;
+  color: #f5f5f5;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+}
+body {
+  background: #0b2929;
+  color: #f5f5f5;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* =======================
+   NAVBAR
+======================= */
+.navbar {
+  padding: 1rem;
+  background: linear-gradient(90deg, #040404, #151717);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f3f9f8 !important;
+}
+
+.navbar-nav .nav-link {
+  color: #f5f5f5 !important;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #11e0a5 !important;
+}
+
+/* =======================
+   HERO / MAIN SECTION
+======================= */
+.game-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #e5e7e9;
+  text-shadow: 1px 1px 9px rgba(221, 225, 224, 0.95);
+  margin-bottom: 1rem;
+}
+
+p.lead.text-muted {
+  color: #fff !important;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+/* =======================
+   BOTONES
+======================= */
+.btn-primary,
+.btn-secondary {
+  border: none;
+  transition: 0.3s;
+  text-shadow: 2px 2px 5px rgba(9, 9, 9, 0.7);
+}
+
+.btn-primary {
+  background: #7fde3b;
+}
+.btn-primary:hover {
+  background: #366e11;
+}
+
+.btn-secondary {
+  background: #43bcdb;
+}
+.btn-secondary:hover {
+  background: #17566f;
+}
+
+/* =======================
+   PROYECTOS / CARDS
+======================= */
+.card {
+  background: #07171b;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  color: #f5f5f5;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 1px 6px 18px rgba(0, 0, 0, 0.7);
+}
+
+.card-title {
+  font-weight: bold;
+  color: #eaeeed;
+}
+
+.card-text {
+  color: #d1d1d1;
+}
+
+small.text-muted {
+  color: #ffffff6f !important;
+}
+
+/* =======================
+   ACERCA DEL JUEGO (CARRUSEL)
+======================= */
+.carousel-inner p {
+  font-size: 1.2rem;
+  color: #f5f5f5;
+}
+
+.carousel .quote-footer {
+  color: #aaa;
+}
+
+p.lead {
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* =======================
+   CONTACTO - FORMULARIO
+======================= */
+section.bg-light input,
+section.bg-light textarea,
+section.bg-light .form-control {
+  background: #1a1a1a;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+section.bg-light input::placeholder,
+section.bg-light textarea::placeholder,
+section.bg-light .form-control::placeholder {
+  color: #bbb;
+}
+
+section.bg-light h2,
+section.bg-light h6,
+section.bg-light .form-label {
+  color: #000 !important;
+}
+
+section.bg-light .form-control:focus {
+  background: #222;
+  color: #fff;
+  border-color: #0056b3;
+  box-shadow: 0 0 0 .2rem rgba(0, 86, 179, 0.25);
+}
+
+/* =======================
+   FOOTER
+======================= */
+footer {
+  font-size: 0.9rem;
+  background: linear-gradient(90deg, #0d0d0d, #1a1a1a);
+}
+
+footer a {
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+footer a:hover {
+  color: #e63946 !important;
+}
